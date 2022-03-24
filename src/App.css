@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --red: #e63946ff;
+    --white: #f1faeeff;
+    --orange: #ee6c4dff;
+    --black: #293241ff;
+    --blue: #1d3557ff;
+    --red-light: rgba(230, 57, 71, 0.8);
+    --white-light: rgba(241, 250, 238, 0.8);
+    --orange-light: rgba(238, 109, 77, 0.8);
+    --black-light: rgba(41, 50, 65, 0.8);
+    --blue-light: rgba(29, 53, 87, 0.8);
+}

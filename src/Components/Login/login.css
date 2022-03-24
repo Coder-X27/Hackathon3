@@ -1,0 +1,121 @@
+.container1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./login-background.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 360px) {
+    .container1 {
+        width: 80vw;
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .container1 {
+        width: 80vw;
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 1304px) {
+    .container1 {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.form {
+    width: 30vw;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: "blur(10px)";
+    box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.5);
+    border-left: solid 1px rgba(8, 8, 8, 0.233);
+    border-top: solid 1px rgba(255, 255, 255, 0.13);
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-3 input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+    height: 3rem;
+    border: none;
+    background: #9a9ba8;
+    border-radius: 0.3rem;
+}
+
+.form h1 {
+    text-align: center;
+    color: white;
+}
+
+.form label {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 65%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .loginpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .form {
+        width: 90%;
+        margin: auto;
+    }
+}

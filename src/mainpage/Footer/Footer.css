@@ -1,0 +1,51 @@
+.Footer {
+    background: linear-gradient(60deg, var(--black) 0%, var(--blue) 100%);
+}
+
+.footermain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.social-icon {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.footermain h1 {
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: .05rem;
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    font-size: 2rem;
+}
+
+.footermain p {
+    color: var(--white);
+    letter-spacing: .05rem;
+    font-size: 0.9rem;
+    margin: .5rem 0;
+}
+
+.footermain h1 span {
+    color: var(--orange);
+}
+
+.social-item {
+    width: 80%;
+    margin: auto;
+    filter: grayscale(1);
+}
+
+.social-item:hover {
+    filter: grayscale(0);
+    transition: all .4s ease-in-out;
+}
+
+.social-item img {
+    width: 70px;
+}
